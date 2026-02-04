@@ -4,8 +4,11 @@ import styled from 'styled-components';
 const Hero = () => {
   return (
     <Wrapper>
-      <HeroImage src="/images/hero-img.jpg" />
-      <Swoop src="/swoop.svg" />
+      <HeroImage
+        src="/images/hero-img.jpg"
+        alt="An example of the photos distributed through this site (cat on black background)"
+      />
+      <Swoop src="/swoop.svg" alt="" />
     </Wrapper>
   );
 };
